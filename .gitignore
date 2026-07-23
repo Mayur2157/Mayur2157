@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Project-specific: Raw input images (ignore original photo uploads, keep prepped outputs)
+*.jpg
+*.jpeg
+*.png
+!source-prepped.png
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.suo
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
